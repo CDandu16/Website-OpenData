@@ -183,3 +183,8 @@ img { max-width: 100%; }
 
 }
 
+#background{
+    background:url('/static/img/backgrounds/1.jpg')no-repeat; 
+    background: set;
+}
+
