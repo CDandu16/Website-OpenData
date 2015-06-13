@@ -69,44 +69,48 @@
             <!-- /.container-fluid -->
         </nav>
             <section class="bg-primary" id="about">
-                <div class="container">
+                <form class="form-horizontal">
+                    <fieldset>
+                    <!-- Select Basic -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
+                      <div class="col-md-4">
+                        <select id="selectbasic" name="selectbasic" class="form-control">
+                          <option value="1">Option one</option>
+                          <option value="2">Option two</option>
+                            
+                        </select>
+                      </div>
+                    </div>
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2 text-center">
-                            <h2 class="section-heading">Plan My Day!</h2>
-                            <hr class="light">
-                            <p class="text-faded">Plan my Day allows for people to create routes to explore and have fun in Detroit!</p>
-                            <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+                        <!-- Text input-->
+                        <div class="form-group col-md-4">
+                          <label class="col-md-4 control-label" for="Time_End">Start Time</label>  
+                          <div class="col-md-4">
+                          <input id="Time_End" name="Time_End" type="text" placeholder="Start Time" class="form-control input-md">  
+                          </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group col-md-4">
+                          <label class="col-md-4 control-label" for="Time_End">End Time</label>  
+                          <div class="col-md-4">
+                          <input id="Time_End" name="Time_End" type="text" placeholder="End Time" class="form-control input-md">  
+                          </div>
                         </div>
                     </div>
-                </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput">Max Budget</label>  
+                      <div class="col-md-4">
+                      <input id="textinput" name="textinput" type="text" placeholder="Budget" class="form-control input-md">
+                      </div>
+                    </div>
+
+                    </fieldset>
+                    </form>
             </section>
-        <section>
-            <div class="btn-group center-block">
-                <button class="btn">Categories</button>
-                <button class="btn dropdown-toggle" data-toggle="dropdown">
-                <span class="caret"></span>
-                </button>
-                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                   <li><a tabindex="-1" href="#">Item I</a></li>
-                   <li><a tabindex="-1" href="#">Item II</a></li>
-                   <li><a tabindex="-1" href="#">Item III</a></li>
-                 </ul>
-            </div>
-        </section>
-       <section>
-            <div class="input-group">
-              <span class="input-group-addon" id="sizing-addon2">@</span>
-              <input type="text" class="form-control" placeholder="Begin" aria-describedby="sizing-addon2">
-            </div>
-        </section>
-        <section>
-            <div class="btn-group center-block">
-                <div class="input-group">
-                  <span class="input-group-addon" id="sizing-addon2">@</span>
-                  <input type="text" class="form-control" placeholder="Number of People" aria-describedby="sizing-addon2">
-                </div>
-            </div>
-        </section>
     
         
         <!-- jQuery -->
