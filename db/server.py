@@ -4,11 +4,11 @@ import os
 # import time
 # import re
 # import base64
-# import sys
+import sys
 # import json
 # import datetime
-# import math
-# import logging
+import math
+import logging
 # import traceback
 # import yaml
 # import argparse
@@ -31,11 +31,6 @@ from mako import exceptions
 from mako.template import Template
 from mako.lookup import TemplateLookup
 
-# The dictionary containing environment information
-env = {}
-
-# The printed version of the website.
-version = "1.2.5"
 
 # The root directory of the server - this file
 root = os.path.join(os.path.dirname(__file__), ".")
@@ -43,10 +38,10 @@ root = os.path.join(os.path.dirname(__file__), ".")
 # Connect to a local database
 '''
 Replace [database] [user] [password] [host] and [port] with data specific to your postgreSQL setup
-If you followed the install guide it should be 'safevisitor', 'postgres', [whatever you set the password to be], 'localhost', '5432'
+
 If you are connected to the database via PGadmin3, right click on the server and all this information will be available
 '''
-conn = psycopg2.connect(database="MoTown", user="postgres", password="hack4detroit", host="127.0.0.1", port="5432")
+conn = psycopg2.connect(database="motown", user="hack4detroit", password="h4d", host="127.0.0.1", port="5432")
 
 
 #returns a list of all clients
