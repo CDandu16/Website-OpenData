@@ -147,6 +147,15 @@
 		document.getElementById("searchResultText").style.opacity = 1;
 	}
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    $(function(){
+        $('#searchForm').submit(function() {
+            var values = $(this).find('input[name="searchInput"]').val();
+            console.log(values);
+        });
+    });
+</script>
 </body>
 
 </html>
