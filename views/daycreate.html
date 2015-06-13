@@ -17,7 +17,8 @@
 
 <body>
     
-    <a href="index.html"><img src="/static/img/backBtn.png" id="backBtn"/></a>
+    <a href="index.html"><img src="/static/img/backBtn.png" id="backBtn" onmouseover="this.src='/static/img/back2.png'"
+     onmouseout="this.src='/static/img/backBtn.png'"  /> </a>
 <header>
     
 	<h1 class="logoHeader">Will<span> go</span></h1>
@@ -204,11 +205,6 @@
         }).delay(2000);
     });
 </script>
-<!--<script>
-    $(function(){
-       if($("#backBtn").mouseover()){$('img#backBtn').attr("src", "static/img/back2.png");} 
-    });
-</script> -->
 </body>
 
 </html>

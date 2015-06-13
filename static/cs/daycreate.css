@@ -21,7 +21,7 @@ img#backBtn{position:absolute; top:10px; left:20px;}
 
 header {
     padding-top: 4em;
-    background-image:url('/static/img/rsz_loginback.jpg'); background-repeat:no-repeat; background-size:100%;
+    background-image:url('/static/img/rsz_loginback.jpg'); background-size:cover;
     height: 30%;
     text-align: center
 }
