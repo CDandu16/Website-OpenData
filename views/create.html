@@ -60,7 +60,7 @@
                             <a class="page-scroll" href="#portfolio">Past Days</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#contact">Login/Create Account</a>
+                            <a class="page-scroll" href="login.html">Login/Create Account</a>
                         </li>
                     </ul>
                 </div>
@@ -72,54 +72,82 @@
                 <form class="form-horizontal">
                     <fieldset>
                         
+        <!-- IDs for all the fields:
+                Parks and Recreation: "parks"
+                Theater: "theater"
+                Museums: "mus"
+                Landmarks: "land"
+        -->
+                        
                     <!-- Multiple Checkboxes -->
         <div class="form-group">
             <label class="col-md-4 control-label" for="Activities">Select Activities</label>
             <div class="col-md-4">
-            <div class="checkbox">
+            <div class="row"> <div class="col-md-6">
+            <div class="checkbox" id="parks">
             <label for="Activities-0">
             <input type="checkbox" name="Activities" id="Activities-0" value="1">
-      Parks and Recreation
+      Parks and Rec
             </label>
-	        </div>
-            <!-- <div class="checkbox">
-            <label for="Activities-1">
-            <input type="checkbox" name="Activities" id="Activities-1" value="2">
-      Biking
-            </label>
-	        </div> -->
-            <div class="checkbox">
+	        </div> </div>
+            <div class="col-md-6">
+            <div class="checkbox" id="theater">
             <label for="Activities-2">
             <input type="checkbox" name="Activities" id="Activities-2" value="3">
       Theater
             </label>
-	        </div>
-            <div class="checkbox">
-            <label for="Activities-3">
-            <input type="checkbox" name="Activities" id="Activities-3" value="4">
-      Sports
-            </label>
-	       </div>
-                <div class="checkbox">
+                </div> </div> </div>
+        <div class="row"> <div class="col-md-6">
+        <div class="checkbox" id="mus">
             <label for="Activities-4">
             <input type="checkbox" name="Activities" id="Activities-3" value="5">
       Museums
            </label>
-	       </div>
-                <div class="checkbox">
-            <label for="Activities-5">
-            <input type="checkbox" name="Activities" id="Activities-3" value="6">
-      Famous Landmarks
-           </label>
-	       </div>
-                 <div class="checkbox">
+	       </div> </div> <div class="col-md-6">
+            <div class="checkbox" id="land">
             <label for="Activities-6">
             <input type="checkbox" name="Activities" id="Activities-3" value="7">
       Landmarks
            </label>
-	       </div>
-            </div>
-        </div>    
+            </div> </div>
+            </div> </div>
+        </div>
+    
+
+        <!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sports">Sports</label>
+  <div class="col-md-4">
+    <select id="sports" name="sports" class="form-control">
+      <option value="1">None</option>
+      <option value="2">Lions (Football)</option>
+      <option value="3">Red Wings (Ice Hockey)</option>
+      <option value="4">Tigers (Baseball)</option>
+    </select>
+  </div>
+</div>
+                        
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="food">What do you want to eat?</label>
+  <div class="col-md-4">
+    <select id="food" name="food" class="form-control">
+      <option value="1">American</option>
+      <option value="2">Cafe/Donut</option>
+      <option value="3">Chinese</option>
+      <option value="4">Fast Food</option>
+      <option value="5">French</option>
+      <option value="6">Indian</option>
+      <option value="7">Italian</option>
+      <option value="8">Japanese</option>
+      <option value="9">Mediterranean</option>
+      <option value="10">Mexican</option>
+      <option value="11">Steakhouse</option>
+      <option value="12">Thai</option>
+    </select>
+  </div>
+</div>
+
                         
                     
                         <!-- Text input-->
