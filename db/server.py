@@ -1,6 +1,6 @@
 # import pdb
 
-# import os
+import os
 # import time
 # import re
 # import base64
@@ -26,7 +26,6 @@ from twisted.internet import reactor
 from twisted.internet import defer
 from twisted.internet import ssl
 from twisted.python import log
-from twisted.python.logfile import DailyLogFile
 
 from mako import exceptions
 from mako.template import Template
