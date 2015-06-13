@@ -41,7 +41,7 @@ Replace [database] [user] [password] [host] and [port] with data specific to you
 
 If you are connected to the database via PGadmin3, right click on the server and all this information will be available
 '''
-conn = psycopg2.connect(database="motown", user="hack4detroit", password="h4d", host="127.0.0.1", port="5432")
+conn = psycopg2.connect(database="motown", user="hack4detroit", password="h4d")#, host="localhost")#, port="5432")
 
 
 #returns a list of all clients
@@ -198,5 +198,5 @@ if __name__ == "__main__":
 	])
 
 	log.startLogging(sys.stdout)
-	reactor.listenTCP(5432, application)
+	reactor.listenTCP(5431, application)
 	reactor.run()
