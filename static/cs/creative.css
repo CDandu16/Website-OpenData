@@ -452,6 +452,11 @@ fieldset[disabled] .btn-primary.active {
     background-color:#0099FF;
 }
 
+.btn-xl2 {
+    padding: 15px 30px;
+    background-color:#C3C5BA;
+}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
