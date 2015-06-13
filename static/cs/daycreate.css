@@ -1,0 +1,133 @@
+::-webkit-input-placeholder {
+    color: #ccc
+}
+:-moz-placeholder,
+::-moz-placeholder {
+    color: #ccc
+}
+:-ms-input-placeholder {
+    color: #ccc
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F2F2;
+    color: #33332D;
+    font-family: "Open Sans"
+}
+header {
+    padding-top: 4em;
+    background: #6D71EE;
+    height: 30%;
+    text-align: center
+}
+.logoHeader {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 6em
+}
+.logoHeader span {
+    font-weight: 200;
+    font-size: .3em
+}
+.logoSubheader {
+    margin-top: .5em;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5em
+}
+#searchForm {
+    margin: 8em auto 0;
+    text-align: center
+}
+#searchInput {
+    margin-bottom: 0;
+    padding: 20px 2% 20px 3%;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    background: #fff;
+    width: 95%;
+    font-family: "Open Sans";
+    font-size: 1.8em;
+    font-weight: 300;
+    color: #33332D;
+    border-bottom: 1px solid #6D71EE
+}
+#searchResultText {
+    margin-top: 1em;
+    opacity: 0;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #B8B8B8;
+    transition: .3s opacity ease-in-out
+}
+#servicesColumns {
+    margin: 3em auto 8em;
+    padding: 0;
+    text-align: center;
+    max-width: 1200px;
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    column-width: 300px;
+    -webkit-column-count: auto;
+    -moz-column-count: auto;
+    column-count: auto;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0
+}
+.serviceCard {
+    display: inline-block;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 1.5px 1.5px #ccc
+}
+.serviceCard img {
+    width: 250px;
+    height: 150px;
+    border-bottom: 1px solid #ccc
+}
+.serviceDesc {
+    padding: 10px 0
+}
+.serviceDesc a {
+    text-decoration: none;
+    color: #33332D;
+    display: inline-block
+}
+.serviceDesc a:hover {
+    color: #282828
+}
+.serviceName {
+    margin: 0;
+    padding: 0
+}
+.servicePrice {
+    padding: 0;
+    margin: .5em 0 0;
+    font-size: .8em
+}
+.servicePrice span {
+    font-weight: 700
+}
+footer {
+    background: #6D71EE;
+    height: 20%
+}
+footer h4 {
+    padding: 4em 0;
+    text-align: center
+}
+footer h4 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+    border-bottom: 5px solid #fff
+}
+footer h4 a:hover {
+    border-bottom: 5px dashed #fff
+}
