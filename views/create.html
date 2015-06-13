@@ -21,6 +21,9 @@
 
         <!-- Plugin CSS -->
         <link rel="stylesheet" href="/static/cs/animate.min.css" type="text/css">
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.4/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen"
+     href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/static/cs/creative.css" type="text/css">
@@ -145,32 +148,48 @@
   </div>
 </div>
 
-                    
-                        <!-- Text input-->
-                        <div class="form-group">
-                          <label class="col-md-4 control-label" for="Time_End">Home Departure Time</label>  
-                          <div class="col-md-4">
-                          <input id="Time_End" name="Time_End" type="text" placeholder="Start Time" class="form-control input-md">  
-                          </div>
+                    <script type="text/javascript"
+     src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+    </script> 
+    <script type="text/javascript"
+     src="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.4/js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript"
+     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+    </script>
+    <script type="text/javascript"
+     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+    </script>
+    
+                    <div class="form-group">
+            <div class="row">
+  <label class="col-md-4 control-label" for="month">Date</label>  
+  <div class="col-md-1">
+  <input id="month" name="month" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">MM</span>  
+                </div>
+                <div class="col-md-1">
+  <input id="day" name="day" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">DD</span>  
+  </div>
+                <div class="col-md-2">
+  <input id="year" name="year" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">YYYY</span>  
+  </div>
                         </div>
+</div>
+                        
 
-                        <!-- Text input-->
-                        <div class="form-group">
-                          <label class="col-md-4 control-label" for="Time_End">Home Arrival Time</label>  
-                          <div class="col-md-4">
-                          <input id="Time_End" name="Time_End" type="text" placeholder="End Time" class="form-control input-md">  
-                          </div>
-                        </div>
                         
                     
 
                     <!-- Text input-->
-                    <div class="form-group">
+                    <!--<div class="form-group">
                       <label class="col-md-4 control-label" for="textinput">Max Budget</label>  
                       <div class="col-md-4">
                       <input id="textinput" name="textinput" type="text" placeholder="Budget" class="form-control input-md">
                       </div>
-                    </div>
+                    </div> -->
                         
                     <!-- Text input-->
                     <div class="form-group">
@@ -251,7 +270,7 @@
 
 		</footer>
     
-    
+  
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
