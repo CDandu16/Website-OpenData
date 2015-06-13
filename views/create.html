@@ -82,36 +82,28 @@
                         
                     <!-- Multiple Checkboxes -->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="Activities">Select Activities</label>
+            <label class="col-md-4 control-label" for="Activities"><img src="/static/img/actBtn.png" id="selBtn"/></label>
+            <div id="initChecks">
             <div class="col-md-4">
-            <div class="row"> <div class="col-md-6">
             <div class="checkbox" id="parks">
             <label for="Activities-0">
             <input type="checkbox" name="Activities" id="Activities-0" value="1">
       Parks and Rec
             </label>
-	        </div> </div>
-            <div class="col-md-6">
+	        </div> 
             <div class="checkbox" id="theater">
             <label for="Activities-2">
             <input type="checkbox" name="Activities" id="Activities-2" value="3">
-      Theater
+      Theater and Music
             </label>
-                </div> </div> </div>
-        <div class="row"> <div class="col-md-6">
+                </div>
         <div class="checkbox" id="mus">
             <label for="Activities-4">
             <input type="checkbox" name="Activities" id="Activities-3" value="5">
       Museums
            </label>
-	       </div> </div> <div class="col-md-6">
-            <div class="checkbox" id="land">
-            <label for="Activities-6">
-            <input type="checkbox" name="Activities" id="Activities-3" value="7">
-      Landmarks
-           </label>
-            </div> </div>
-            </div> </div>
+	       </div>
+             </div> </div>
 
             
         </div>
@@ -262,7 +254,15 @@
     
         
         <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+        <script>
+        $(document).ready(function(){
+            $("#initChecks").hide();
+            $("#selBtn").click(function(){
+            $("#initChecks").show();
+            });
+        });
+        </script>
 
         <!-- Bootstrap Core JavaScript -->
         <script src="/static/js/bootstrap.min.js"></script>
