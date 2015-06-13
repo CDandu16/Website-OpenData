@@ -457,6 +457,8 @@ fieldset[disabled] .btn-primary.active {
     background-color:#C3C5BA;
 }
 
+.btn-xl2:hover{background-color:#222; color:#0099FF;}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
