@@ -17,8 +17,9 @@
 
 <body>
     
-    
+    <a href="index.html"><img src="/static/img/backBtn.png" id="backBtn"/></a>
 <header>
+    
 	<h1 class="logoHeader">Will<span> go</span></h1>
 	<h4 class="logoSubheader">Wicked Good Family Time</h4>
 	<form id="searchForm" onsubmit="event.preventDefault(); return showTextResult();">
@@ -147,8 +148,6 @@
 				<div class="footer-icons">
 
 					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
 					<a href="#"><i class="fa fa-github"></i></a>
 
 				</div>
@@ -199,6 +198,11 @@
         });
     });
 </script>
+<!--<script>
+    $(function(){
+       if($("#backBtn").mouseover()){$('img#backBtn').attr("src", "static/img/back2.png");} 
+    });
+</script> -->
 </body>
 
 </html>
