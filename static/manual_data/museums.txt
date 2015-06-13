@@ -1,0 +1,12 @@
+DIA
+42.359323,-83.064472
+Michigan Science Center
+42.349417,-83.0597945
+Black History
+42.359239,-83.060891
+Contemporary
+42.3536121,-83.0594624
+Historical Museum
+42.359752,-83.067181
+Children Museum
+42.365182,-83.073882
